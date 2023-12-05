@@ -305,3 +305,95 @@ body{
 .tap-img img{
     width: 100%;
 }
+
+/* pre-footer */
+
+.contact{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.contact h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 8px;
+}
+
+.message-us{
+    margin-bottom: 100px;
+}
+
+.message-us form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.message-us form label{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.message-us form input{
+    background-color: transparent;
+    border-bottom: white 2px solid;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#message{
+    height: 100px;
+}
+
+.submit{
+    font-size: 30px;
+}
+
+.hrs-and-social{
+    text-align: center;
+}
+
+.hrs-and-social h1{
+    margin-bottom: 20px;
+}
+
+.hours{
+    margin-bottom: 75px;
+}
+
+.hours h3{
+    font-size: 22px;
+}
+
+.hours p{
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social p{
+    font-size: 20px;
+}
+
+.contact-bubbles-foot{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
